@@ -222,6 +222,10 @@ abstract class AbstractValidator implements ValidatorInterface
             }
 
             foreach ($rules as $ruleIdx => $rule) {
+                if (!is_string($rule)) {
+                    continue;
+                }
+
                 // get name and parameters
                 @list($name, $params) = array_pad(explode(":", $rule), 2, null);
 
