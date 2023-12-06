@@ -1,5 +1,5 @@
 {
-    "name": "ctberdon/laravel-validation",
+    "name": "gigabooksite/laravel-validation",
     "description": "Laravel Validation Service",
     "keywords": [
         "laravel",
@@ -12,6 +12,14 @@
             "homepage": "http://andersonandra.de",
             "email": "contato@andersonandra.de",
             "role": "Developer"
+        },
+        {
+            "name": "Carmencito Berdon",
+            "email": "ctberdon@gmail.com"
+        },
+        {
+            "name": "Terence Jan Serencio",
+            "email": "terenceserencio@gmail.com"
         }
     ],
     "homepage": "http://andersao.github.io/laravel-validation",
